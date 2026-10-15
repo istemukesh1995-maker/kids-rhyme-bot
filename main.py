@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import edge_tts
 
 LANG = os.getenv("RHYME_LANG", "english").lower()  # english / hindi / marathi
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", gemini-3.5-flash)
 KEY = os.environ["GEMINI_API_KEY"]
 VOICES = {"english": "en-US-AnaNeural", "hindi": "hi-IN-SwaraNeural", "marathi": "mr-IN-AarohiNeural"}
 TOPICS = ["a little duck", "the moon and stars", "a happy elephant", "rainy day", "colors of the rainbow",
